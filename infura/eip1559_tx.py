@@ -16,7 +16,7 @@ load_dotenv()
 
 infura_url = f'https://data-seed-prebsc-1-s1.binance.org:8545/'
 provider = Web3(Web3.HTTPProvider(infura_url))
-API_KEY = "BszIxANs/4dOdsFQO+ND7+b7K0sxmdoIIb1B9C54iMPxXQhdBMHFjA"
+API_KEY = ""
 WEBSOCKET_URL = "wss://stream.binance.com:9443/ws/!ticker@arr"
 RECONNECT_INTERVAL = 0  # milliseconds
 WEBSOCKET_TRADE_URL = "wss://testnet.binancefuture.com/ws/!miniTicker@arr"
